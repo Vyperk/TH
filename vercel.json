@@ -1,8 +1,10 @@
 {
   "rewrites": [
-    { "source": "/minecraft-hosting", "destination": "/index.html" }
+    { "source": "/minecraft-hosting", "destination": "/index.html" },
+    { "source": "/mta-hosting", "destination": "/index.html" }
   ],
   "redirects": [
-    { "source": "/minecraft-hosting/", "destination": "/minecraft-hosting", "permanent": true }
+    { "source": "/minecraft-hosting/", "destination": "/minecraft-hosting", "permanent": true },
+    { "source": "/mta-hosting/", "destination": "/mta-hosting", "permanent": true }
   ]
 }
