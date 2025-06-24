@@ -1,0 +1,179 @@
+{
+  "navlinks": {
+    "home": "Home",
+    "services": {
+      "title": "Services",
+      "first": "Minecraft Hosting",
+      "second": "Bot Hosting"
+    },
+    "status": "Status",
+    "news": "News",
+    "doc": "Documentation",
+    "contact": "Contact"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Enhance Your Gaming Infrastructure",
+    "subtitle": "Premium VPS solutions designed by gamers, for gamers. Experience the next level in server performance.",
+    "startTrial": "Start Trial",
+    "viewPlans": "View Plans",
+    "clientArea": "Client Area"
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "subtitle": "Discover the perfect blend of performance, exceptional support, and the best value for your hosting needs.",
+    "ultraLowLatency": {
+      "title": "Ultra-Low Latency",
+      "description": "Experience ultra-fast response times with our optimized network infrastructure."
+    },
+    "ddosProtection": {
+      "title": "DDoS Protection",
+      "description": "Advanced DDoS protection keeps your servers online 24/7."
+    },
+    "globalNetwork": {
+      "title": "Global Network",
+      "description": "Strategically located servers worldwide for optimal performance."
+    },
+    "highPerformance": {
+      "title": "High Performance",
+      "description": "The best processors and NVMe SSDs for maximum speed."
+    },
+    "uptime": {
+      "title": "99.99% Uptime",
+      "description": "Enterprise-level infrastructure ensures reliable service."
+    },
+    "instantSetup": {
+      "title": "Instant Setup",
+      "description": "Get your server up and running in minutes with our automated deployment."
+    },
+    "resourceControl": {
+      "title": "Resource Control",
+      "description": "Full control over your server resources with our intuitive panel."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Expert support team available 24/7 for game servers."
+    },
+    "startTrial": "Start Trial",
+    "learnMore": "Learn More"
+  },
+  "plans": {
+    "title": "Our Services",
+    "monthly": "Monthly",
+    "annual": "Annual (Save 10%)",
+    "mostPopular": "Most Popular",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "selectPlan": "Select Plan",
+    "ftp": "FTP/SFTP Access",
+    "support": "24/7 Customer Support",
+    "ddos": "Anti DDoS",
+    "dedicatedIP": "Dedicated IP Included",
+    "MinecrafDescription": "Experience the best performance for your Minecraft server with our optimized infrastructure.",
+    "MtaDescription": "Experience the best performance for your Multi Theft Auto: San Andreas server with our optimized infrastructure."
+  },
+  "gameServers": {
+    "title": "Popular Servers",
+    "Soon": "Soon",
+    "orderNow": "Order Now"
+  },
+  "testimonials": {
+    "title": "Client Reviews",
+    "roles": {
+      "proGamer": "Professional Gamer",
+      "esportsManager": "eSports Manager",
+      "gameDev": "Game Developer",
+      "contentCreator": "Content Creator",
+      "communityManager": "Community Manager"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "whatIsVps": {
+        "question": "What games can I host on Threads Host?",
+        "answer": "We offer hosting for a variety of popular games like Minecraft (Java & Bedrock), Rust, FiveM, SAMP, MTA, and more. If you need a server for another game, contact us and we’ll help you set it up."
+      },
+      "ddosProtection": {
+        "question": "What features do your bot hosting servers have?",
+        "answer": "Our Bot Hosting supports Node.js, Python, and Java. We provide 24/7 uptime, database support, and full console access to manage your bot without limitations."
+      },
+      "upgrade": {
+        "question": "How do I access and manage my server?",
+        "answer": "We use ThreadsHost Panel, an intuitive and easy-to-use platform where you can start, stop, restart, and manage your server from anywhere."
+      },
+      "ddos": {
+        "question": "Do you offer DDoS protection?",
+        "answer": "Yes, all our plans include advanced DDoS protection to ensure your server’s stability and security at all times."
+      },
+      "changePlan": {
+        "question": "Can I upgrade my plan if I need more resources?",
+        "answer": "Absolutely! If you need more RAM, CPU, or storage, you can upgrade your plan at any time without losing progress or settings."
+      },
+      "support": {
+        "question": "Do you provide technical support in case of issues?",
+        "answer": "Yes, our support team is available to help with setup, technical issues, and optimization. You can contact us via support ticket, Discord, or email."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Subscribe to our newsletter for the latest updates, exclusive offers, and gaming tips.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "Contact",
+    "partner": "Affiliates",
+    "trust": "Trustpilot",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "status": "Service Status",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "security": "Security",
+    "copyright": "© 2025 ThreadsHost. All rights reserved.",
+    "community": "Discord Community",
+    "contact": "Contact Us",
+    "report": "Documentation",
+    "service": "Services",
+    "mc": "Minecraft Hosting",
+    "mta": "MTA Hosting",
+    "dsc": "Discord Bot Hosting",
+    "gameh": "Game Hosting",
+    "vps": "VPS Hosting",
+    "dedicated": "Dedicated Hosting",
+    "domains": "Domain Registration (Coming Soon)",
+    "account": "Account",
+    "my": "My Products",
+    "renew": "Renewals & Billing",
+    "login": "Login",
+    "register": "Register"
+},
+"contact": {
+  "title": "Contact",
+  "ticket": {
+    "title": "Ticket Support",
+    "subtitle": "Open a ticket",
+    "description": "Enjoy a free consultation with ThreadsHost best support experts."
+  },
+  "email": {
+    "title": "Email Support",
+    "subtitle": "Email to support@threadshost.com",
+    "description": "Start chatting with our support center sending a mail to support@threadshost.com"
+  },
+  "discord": {
+    "title": "JOIN TO OUR DISCORD",
+    "subtitle": "Click Here and start chatting with us",
+    "description": "Click Here and start chatting with usand our community"
+  }
+  }
+}

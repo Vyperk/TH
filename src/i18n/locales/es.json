@@ -1,0 +1,180 @@
+{
+  "navlinks": {
+    "home": "Inicio",
+    "services": {
+      "title": "Servicios",
+      "first": "Minecraft Hosting",
+      "second": "Bot Hosting"
+    },
+    "status": "Estado",
+    "news": "News",
+    "doc": "Documentacion",
+    "contact": "Contacto"
+  },
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Mejora tu Infraestructura de Gaming",
+    "subtitle": "Soluciones VPS premium diseñadas por gamers, para gamers. Experimenta el siguiente nivel en rendimiento de servidores.",
+    "startTrial": "Empezar",
+    "viewPlans": "Servicios",
+    "clientArea": "Area de clientes"
+  },
+  "features": {
+    "title": "¿Por qué elegirnos?",
+    "subtitle": "Descubre la combinación ideal de rendimiento, soporte excepcional y la mejor relación calidad-precio con nuestros servicios de hosting.",
+    "ultraLowLatency": {
+      "title": "Latencia Ultra Baja",
+      "description": "Experimenta tiempos de respuesta ultrarrápidos con nuestra infraestructura de red optimizada."
+    },
+    "ddosProtection": {
+      "title": "Protección DDoS",
+      "description": "Protección avanzada contra ataques DDoS, manteniendo tus servidores en línea 24/7."
+    },
+    "globalNetwork": {
+      "title": "Red Global",
+      "description": "Ubicaciones estratégicas de servidores en todo el mundo para un rendimiento óptimo."
+    },
+    "highPerformance": {
+      "title": "Alto Rendimiento",
+      "description": "Los mejores procesadores  y SSD NVMe para máxima velocidad."
+    },
+    "uptime": {
+      "title": "99.99% de Disponibilidad",
+      "description": "Infraestructura de nivel empresarial que garantiza un servicio confiable."
+    },
+    "instantSetup": {
+      "title": "Configuración Instantánea",
+      "description": "Pon en marcha tu servidor en minutos con nuestra implementación automatizada."
+    },
+    "resourceControl": {
+      "title": "Control de Recursos",
+      "description": "Control total sobre los recursos de tu servidor con nuestro panel intuitivo."
+    },
+    "support": {
+      "title": "Soporte 24/7",
+      "description": "Equipo experto de soporte para servidores de juegos disponible las 24 horas."
+    },
+    "startTrial": "Empezar",
+    "learnMore": "Más Información"
+  },
+  "plans": {
+    "title": "Nuestros Servicios",
+    "monthly": "Mensual",
+    "annual": "Anual (Ahorra 10%)",
+    "mostPopular": "Más Popular",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "selectPlan": "Seleccionar Plan",
+    "ftp": "Acceso a FTP/SFTP",
+    "support": "Soporte al cliente 24/7",
+    "ddos": "Anti DDoS",
+    "dedicatedIP": "IP dedicada incluida",
+    "MinecrafDescription": "Experimenta el mejor rendimiento para tu servidor Minecraft con nuestra infraestructura optimizada.",
+    "MtaDescription": "Experience the best performance for your Multi Theft Auto: San Andreas server with our optimized infrastructure."
+  },
+  "gameServers": {
+    "title": "Servidores Populares",
+    "Soon": "Pronto",
+    "orderNow": "Ordernar"
+  },
+  "testimonials": {
+    "title": "Reviews de clientes",
+    "roles": {
+      "proGamer": "Gamer Profesional",
+      "esportsManager": "Gerente de eSports",
+      "gameDev": "Desarrollador de Juegos",
+      "contentCreator": "Creador de Contenido",
+      "communityManager": "Gerente de Comunidad"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": {
+      "whatIsVps": {
+        "question": "¿Qué juegos puedo alojar en Threads Host?",
+        "answer": "Ofrecemos hosting para una variedad de juegos populares como Minecraft (Java y Bedrock), Rust, FiveM, SAMP, MTA y más. Si necesitas un servidor para otro juego, contáctanos y te ayudaremos a configurarlo."
+      },
+      "ddosProtection": {
+        "question": "¿Qué características tienen sus servidores de bots?",
+        "answer": "Nuestro Bot Hosting es compatible con Node.js, Python y Java. Ofrecemos conexión 24/7, soporte para bases de datos y acceso completo a la consola para que gestiones tu bot sin limitaciones."
+      },
+      "upgrade": {
+        "question": "¿Cómo accedo y administro mi servidor?",
+        "answer": "Utilizamos ThreadsHost Panel, una plataforma intuitiva y fácil de usar donde puedes iniciar, detener, reiniciar y administrar tu servidor desde cualquier lugar."
+      },
+      "ddos": {
+        "question": "¿Tienen protección contra ataques DDoS?",
+        "answer": "Sí, todos nuestros planes incluyen protección avanzada contra DDoS para garantizar la estabilidad y seguridad de tu servidor en todo momento."
+      },
+      "changePlan": {
+        "question": "¿Puedo cambiar de plan si necesito más recursos?",
+        "answer": "¡Por supuesto! Si necesitas más RAM, CPU o almacenamiento, puedes escalar tu plan en cualquier momento sin perder tu progreso o configuraciones."
+      },
+      "support": {
+        "question": "¿Ofrecen soporte técnico en caso de problemas?",
+        "answer": "Sí, nuestro equipo de soporte está disponible para ayudarte con configuración, problemas técnicos y optimización. Puedes contactarnos a través de ticket de soporte, Discord o correo electrónico."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Mantente Actualizado",
+    "subtitle": "Suscríbete a nuestro boletín para recibir las últimas actualizaciones, ofertas exclusivas y consejos de gaming.",
+    "placeholder": "Ingresa tu email",
+    "subscribe": "Suscribirse"
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Contacto",
+    "partner": "Afiliados",
+    "trust": "Trustpilot",
+    "support": "Soporte",
+    "helpCenter": "Centro de Ayuda",
+    "documentation": "Documentación",
+    "status": "Estado de los Servicios",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "security": "Seguridad",
+    "copyright": "© 2025 ThreadsHost. Todos los derechos reservados.",
+    "community": "Comunidad de Discord",
+    "contact": "Contactanos",
+    "report": "Documentación",
+    "service": "Servicios",
+    "mc": "Minecraft Hosting",
+    "dsc": "Discord Bot Hosting",
+    "gameh": "Game Hosting",
+    "vps": "VPS Hosting",
+    "dedicated": "Hosting Dedicado",
+    "domains": "Registro de dominio (Proximamente)",
+    "account": "Cuenta",
+    "my": "Mis Productos",
+    "renew": "Renovaciones y Facturación",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  
+    "contact": {
+      "title": "Contacto",
+      "ticket": {
+        "title": "Soporte por Ticket",
+        "subtitle": "Abrir un ticket",
+        "description": "Disfruta de una consulta gratuita con los mejores expertos de soporte de ThreadsHost."
+      },
+      "email": {
+        "title": "Soporte por Email",
+        "subtitle": "Envía un correo a support@threadshost.com",
+        "description": "Comienza a chatear con nuestro centro de soporte enviando un correo a support@threadshost.com"
+      },
+      "discord": {
+        "title": "ÚNETE A NUESTRO DISCORD",
+        "subtitle": "Haz clic aquí y comienza a chatear con nosotros",
+        "description": "Haz clic aquí y comienza a chatear con nosotros y nuestra comunidad"
+      }
+    }
+  
+}

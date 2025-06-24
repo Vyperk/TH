@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* FAQ Animations */
+@keyframes expandFaq {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 500px;
+    opacity: 1;
+  }
+}
+
+@keyframes rotatePlus {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(45deg); }
+}
+
+/* Animation Classes */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.slide-up {
+  opacity: 0;
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.gradient-animate {
+  background-size: 200% 200%;
+  animation: gradientMove 15s ease infinite;
+}
+
+.faq-content {
+  overflow: hidden;
+  animation: expandFaq 0.3s ease-out forwards;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-icon.active {
+  transform: rotate(45deg);
+}
+
+/* Typography */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-orbitron;
+  }
+  
+  body {
+    @apply font-inter;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff3333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
+
+/* Section Styles */
+
+
+
+/* Section-specific backgrounds with gradients */
+.hero-section {
+  background: radial-gradient(circle at center,
+    rgba(255, 51, 51, 0.15) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}
+
+/* Section content wrapper */
+section > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+
+/* Interactive hover effects */
+.interactive-hover {
+  transition: all 0.3s ease;
+}
+
+.interactive-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Swiper Styles */
+.testimonials-swiper {
+  padding: 20px 40px !important;
+  margin: -20px;
+  padding-bottom: 80px !important;
+}
+
+.testimonials-swiper .swiper-button-next,
+.testimonials-swiper .swiper-button-prev {
+  color: #ff3333;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 45%;
+}
+
+.testimonials-swiper .swiper-button-next {
+  right: 20px;
+}
+
+.testimonials-swiper .swiper-button-prev {
+  left: 20px;
+}
+
+.testimonials-swiper .swiper-button-next:after,
+.testimonials-swiper .swiper-button-prev:after {
+  font-size: 24px;
+}
+
+.testimonials-swiper .swiper-button-next:hover,
+.testimonials-swiper .swiper-button-prev:hover {
+  color: #ffffff;
+  background: #ff3333;
+  transform: scale(1.1);
+}
+
+.testimonials-swiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 51, 51, 0.3);
+  transition: all 0.3s ease;
+  margin: 0 6px !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: #ff3333;
+  width: 40px;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto;
+  padding: 20px 0;
+}
